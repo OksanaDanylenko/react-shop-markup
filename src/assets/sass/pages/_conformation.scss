@@ -1,0 +1,149 @@
+.bag-img {
+  width: 125px;
+  height: 125px;
+  border: solid 1px #c6c6c6;
+  margin-right: 9px;
+}
+
+.greeting-text {
+  font-family: ProximaNova, sans-serif;
+  font-size: 14px;
+  color: #4a4a4a;
+  text-align: start;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.greeting-wrap {
+  margin: 0 18px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.order-details-wrap {
+  font-family: ProximaNova, sans-serif;
+  text-align: start;
+  margin: 0 18px;
+  margin-top: 15px;
+  padding-bottom: 19px;
+  border-bottom: 1px solid #e2e2e2;
+
+  .heading {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 6px;
+  }
+
+  .common-block {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #4a4a4a;
+  }
+
+  .address {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #4a4a4a;
+    width: 140px;
+  }
+}
+
+.name {
+  font-size: 13px;
+  letter-spacing: 0.6px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+.order-summary-wrap {
+  text-align: start;
+  margin: 0 18px;
+  margin-top: 18px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #c6c6c6;
+
+}
+
+.name-order-summary {
+  margin-bottom: 19px;
+}
+
+.summary-img-info-wrap,
+.main-info-summary {
+  display: flex;
+}
+
+.main-info-summary {
+  justify-content: space-between;
+  width: 278px;
+}
+
+.info {
+  margin-bottom: 5px;
+  font-size: 14px;
+
+}
+
+.grey-info {
+  font-size: 16px;
+  color: #9b9b9b;
+}
+
+.all-payments-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.total-sum {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
+
+.italic-style {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #4a4a4a;
+  font-style: italic;
+}
+
+.customer-servise-wrap {
+  text-align: start;
+  margin: 17px 18px;
+
+  a {
+    all: unset;
+    color: $light-blue;
+
+  }
+
+  .phone-number {
+    a {
+      color: #4a4a4a;
+    }
+  }
+}
+
+.info-team,
+.contacts {
+  font-size: 14px;
+  line-height: 1.43;
+  color: #4a4a4a;
+  padding-top: 17px;
+  width: 427px;
+
+}
+
+.contacts {
+  padding-top: 10px;
+  padding-left: 7px;
+}

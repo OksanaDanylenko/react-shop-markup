@@ -1,0 +1,11 @@
+.button-wrap {
+  display: flex;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ffb631;
+  justify-content: space-between;
+  input {
+    min-width: auto ;
+    text-align: center ;
+  }
+}

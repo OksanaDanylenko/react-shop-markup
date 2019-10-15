@@ -1,0 +1,234 @@
+.table-heading {
+  display: flex;
+  position: relative;
+  bottom: -3px;
+
+  .hide-tab {
+    display: none;
+    @media (max-width: 1330px) {
+      display: block;
+    }
+  }
+}
+
+.tabs-wrap {
+  width: 276px;
+  margin-top: 4px;
+  margin-left: 12px;
+}
+
+.table-heading__item {
+  text-align: start;
+  cursor: pointer;
+
+  h2 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+
+  &:first-child {
+    width: 87px;
+
+    h2 {
+      padding-left: 25px;
+    }
+  }
+
+  &:nth-child(2) {
+    width: 180px;
+
+    h2 {
+      padding-left: 9px;
+    }
+  }
+}
+
+.info-wrap {
+  font-family: ProximaNova, sans-serif;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-sizing: border-box;
+  text-align: start;
+  margin: 0 13px;
+  width: 273px;
+  .info-wrap__item {
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #c6c6c6;
+    display: flex;
+    justify-content: space-between;
+
+    .line-through {
+      text-decoration: line-through;
+    }
+
+    .pink-big {
+      font-size: 18px;
+      font-weight: 600;
+      color: #da1781;
+
+    }
+  }
+
+  .main-item {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #4a4a4a;
+
+    &:nth-child(1) {
+      margin: 5px 0 12px 0;
+    }
+  }
+
+}
+
+.tshirt-img {
+  width: 224.6px;
+  height: 224.6px;
+}
+
+.offer-thank {
+  font-family: ProximaNova, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  color: #4a4a4a;
+  padding-top: 18px;
+  padding-bottom: 12px;
+}
+
+.offer-wrap {
+  margin: 0 auto;
+}
+
+.action {
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: #da1781;
+  height: 35px;
+  border: dashed 1px #da1781;
+  margin: 0 auto;
+  width: 258px;
+  padding-left: 20px;
+  padding-right: 2px;
+  margin-right: 29px;
+}
+
+.action-more-info {
+  font-family: ProximaNova, sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  color: #da1781;
+  margin: 35px 23px 23px 21px;
+  letter-spacing: 0.4px;
+}
+
+.offer-end {
+  font-family: ProximaNova, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  margin-right: 26px;
+  margin-bottom: -3px;
+}
+
+.time-numb {
+  font-family: ProximaNova, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #4a4a4a;
+  letter-spacing: 3.7px;
+  margin-right: 18px;
+}
+
+.time {
+  font-family: ProximaNova, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  word-spacing: 11px;
+  margin-right: 37px;
+  margin-bottom: 28px;
+}
+
+.tshirt-img {
+  margin-right: 20px;
+}
+
+.switch {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.circle--active {
+  width: 6px;
+  height: 6px;
+  border: solid 1px #c6c6c6;
+  border-radius: 3px;
+  background-color: #c6c6c6;
+}
+
+.circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  border: solid 1px #c6c6c6;
+}
+
+.tshort-about {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-left: 12px;
+  margin-top: 13px;
+
+  .tshort-info {
+    font-family: ProximaNova, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.13;
+    color: #4a4a4a;
+  }
+
+  .blue-color {
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #0baff0;
+  }
+
+}
+
+.table-heading__item {
+  h2 {
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.54px;
+    border-bottom: solid 1px #e2e2e2;
+    color: #c6c6c6;
+    padding-bottom: 2px;
+
+  }
+
+  .active {
+    color: #da1781;
+    border-bottom: solid 3px #da1781;
+  }
+}
+
+.button-wrap {
+  display: flex;
+}

@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  height: 73px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 4px;
+  h1 {
+    margin: 0.8em 0;
+    @media (max-width: 450px) {
+
+      margin:   0.5em 0;
+    }
+  }
+  img {
+    padding-right: 7px;
+  }
+  .header__navigation {
+    @media (max-width: 450px) {
+
+  display: none;
+
+    }
+  }
+  @media (max-width: 450px) {
+
+    padding-bottom: 0;
+  }
+  @media (max-width: 320px) {
+    display: none;
+  }
+}
+.pink-logo {
+  font-family: ProximaNova, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #da1781;
+  text-decoration: none;
+  img {
+    vertical-align: sub;
+  }
+}
+
+
+.menu {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 456px;
+  padding-left: 61px;
+  padding-right: 42px;
+  a{
+    font-family: ProximaNova, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #c7c7c7;
+    vertical-align: middle;
+    display: block;
+    height: 73px;
+    line-height: 101px;
+    text-decoration: none;
+  }
+}
+.user-info{
+  display: flex;
+  justify-content: space-around;
+  border-left: solid 1px $full-light-grey;
+  height: 24px;
+  margin-top: 36px;
+  padding-left: 37px;
+  .user-info__bell {
+  width: 17px;
+  height: 18.8px;
+}
+  .user-info__icon{
+    width: 36px;
+    height: 36px;
+    .user-info__amazon {
+      margin-top: -8px;
+      width: 30px;
+      margin-left: 5px;
+      border: 1px solid $full-light-grey;
+      border-radius: 32px;
+      height: 30px;
+      padding: 2px;
+    }
+  }
+  .user-info__name {
+    padding-left: 13px;
+    font-family: ProximaNova, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.02px;
+    color: #4a4a4a;
+  }
+  @media (max-width: 450px) {
+
+    display: none;
+
+  }
+}
+
+.user-info__counter {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #da1781;
+  font-family:  ProximaNova, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: -30px;
+  margin-left: 9px;
+  color: white;
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 2.875em;
+  padding-right: 4.3em;
+  border-top: 5px solid;
+  border-image:  linear-gradient(262deg, #ffffff, #fff0a3 3%, #ffd700 16%, #ff41f2 84%, #df33ff) 100;
+  @media (max-width: 450px) {
+    padding: 0 1.2em;
+  }
+}
+
+.tablet-header {
+  display: none;
+  @media (max-width: 450px) {
+    display: block;
+    padding-top: 20px;
+    font-size: 14px;
+    text-align: end;
+    .date {
+      font-size: 12px;
+    }
+  }
+}
